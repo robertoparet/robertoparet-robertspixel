@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/robertoparet-robertspixel/static/css/main.9f8f364e.css",
+    "main.css": "/robertoparet-robertspixel/static/css/main.061d2b84.css",
     "main.js": "/robertoparet-robertspixel/static/js/main.346f9fc2.js",
     "static/media/px04.jpg": "/robertoparet-robertspixel/static/media/px04.2a376ff30f6e223588d2.jpg",
     "static/media/px08.jpg": "/robertoparet-robertspixel/static/media/px08.d60905871a06a0bfd485.jpg",
@@ -44,11 +44,11 @@
     "static/media/lg.ttf?io9a6k": "/robertoparet-robertspixel/static/media/lg.747d038541bfc6bb8ea9.ttf",
     "static/media/lg.woff2?io9a6k": "/robertoparet-robertspixel/static/media/lg.64b800aa30714fd916dc.woff2",
     "index.html": "/robertoparet-robertspixel/index.html",
-    "main.9f8f364e.css.map": "/robertoparet-robertspixel/static/css/main.9f8f364e.css.map",
+    "main.061d2b84.css.map": "/robertoparet-robertspixel/static/css/main.061d2b84.css.map",
     "main.346f9fc2.js.map": "/robertoparet-robertspixel/static/js/main.346f9fc2.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f8f364e.css",
+    "static/css/main.061d2b84.css",
     "static/js/main.346f9fc2.js"
   ]
 }
