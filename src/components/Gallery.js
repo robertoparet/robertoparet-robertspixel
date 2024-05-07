@@ -1,5 +1,22 @@
-import React, { useState } from 'react';
-import '../styles/styles.css'; 
+import LightGallery from 'lightgallery/react';
+
+// import styles
+import 'lightgallery/css/lightgallery.css';
+import 'lightgallery/css/lg-zoom.css';
+import 'lightgallery/css/lg-thumbnail.css';
+import 'lightgallery/css/lg-autoplay.css';
+import 'lightgallery/css/lg-fullscreen.css';
+import 'lightgallery/css/lg-share.css';
+import 'lightgallery/css/lg-rotate.css';
+
+
+// import plugins if you need
+import lgThumbnail from 'lightgallery/plugins/thumbnail';
+import lgZoom from 'lightgallery/plugins/zoom';
+import lgAutoplay from 'lightgallery/plugins/autoplay'
+import lgFullscreen from 'lightgallery/plugins/fullscreen';
+import lgShare from 'lightgallery/plugins/share';
+import lgRotate from 'lightgallery/plugins/rotate';
 
 import img1 from '../assets/px01.jpg';
 import img2 from '../assets/px02.jpg';
@@ -81,45 +98,29 @@ const images = [
 ];
 
 
-  
 
-  export function Gallery() {
-    const [selectedImage, setSelectedImage] = useState(null);
-
-    const handleClick = (image) => {
-        setSelectedImage(image);
+export function Gallery() {
+    const onInit = () => {
+        console.log('lightGallery has been initialized');
     };
-
-    const handleClose = () => {
-        setSelectedImage(null);
-    };
-
     return (
-        <div className="gallery">
-            {images.map((image, index) => (
-                <img
-                    key={index}
-                    src={image.src}
-                    alt={image.alt}
-                    onClick={() => handleClick(image)}
-                />
-            ))}
-            {selectedImage && (
-                <div className="lightbox-overlay" onClick={handleClose}>
-                    <div className="lightbox-content">
-                        <img
-                            src={selectedImage.src}
-                            alt={selectedImage.alt}
-                            className="lightbox-image"
-                        />
-                        <button className="close-button" onClick={handleClose}>
-                            Close
-                        </button>
-                    </div>
-                </div>
-            )}
+        <div className="App">
+            <LightGallery
+                onInit={onInit}
+                speed={500}
+                plugins={[lgThumbnail, lgZoom, lgAutoplay, lgFullscreen, lgRotate, lgShare]}
+            >
+
+                {images.map((image, index) => {
+                    return (
+                        <a href={image.src} key={index}>
+                            <img alt={image.alt} src={image.src} />
+                        </a>
+                    )
+                })}
+
+
+            </LightGallery>
         </div>
     );
-};
-
-
+}
