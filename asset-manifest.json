@@ -1,10 +1,12 @@
 {
   "files": {
     "main.css": "/robertoparet-robertspixel/static/css/main.061d2b84.css",
-    "main.js": "/robertoparet-robertspixel/static/js/main.346f9fc2.js",
+    "main.js": "/robertoparet-robertspixel/static/js/main.89d8baa9.js",
     "static/media/px04.jpg": "/robertoparet-robertspixel/static/media/px04.2a376ff30f6e223588d2.jpg",
     "static/media/px08.jpg": "/robertoparet-robertspixel/static/media/px08.d60905871a06a0bfd485.jpg",
     "static/media/px23.jpg": "/robertoparet-robertspixel/static/media/px23.48417a12f34a422d4118.jpg",
+    "static/media/px26.jpg": "/robertoparet-robertspixel/static/media/px26.b25974d635a4017335cb.jpg",
+    "static/media/px16.jpg": "/robertoparet-robertspixel/static/media/px16.477f620652722c60af81.jpg",
     "static/media/px46.jpg": "/robertoparet-robertspixel/static/media/px46.0186c24a0d8759e4fd3c.jpg",
     "static/media/px45.jpg": "/robertoparet-robertspixel/static/media/px45.cd03667911876fabb6d6.jpg",
     "static/media/px25.jpg": "/robertoparet-robertspixel/static/media/px25.885013316b98295be0b7.jpg",
@@ -20,11 +22,13 @@
     "static/media/px15.jpg": "/robertoparet-robertspixel/static/media/px15.42d9d21ecc17ade71450.jpg",
     "static/media/px12.jpg": "/robertoparet-robertspixel/static/media/px12.c8aff51ee8504eadafc5.jpg",
     "static/media/px06.jpg": "/robertoparet-robertspixel/static/media/px06.13f922cfc1a3375fe715.jpg",
+    "static/media/px31.jpg": "/robertoparet-robertspixel/static/media/px31.37d65775ba946981e858.jpg",
     "static/media/px11.jpg": "/robertoparet-robertspixel/static/media/px11.7ecc59d940c164f225f0.jpg",
     "static/media/px07.jpg": "/robertoparet-robertspixel/static/media/px07.d270ae68d74ad12b8d9f.jpg",
     "static/media/px21.jpg": "/robertoparet-robertspixel/static/media/px21.fc369a31cb8ecbccec75.jpg",
     "static/media/px40.jpg": "/robertoparet-robertspixel/static/media/px40.fb87b5cc3e709a63d066.jpg",
     "static/media/px09.jpg": "/robertoparet-robertspixel/static/media/px09.49f1363b2fbc7bd49d92.jpg",
+    "static/media/px10.jpg": "/robertoparet-robertspixel/static/media/px10.4e18531128967876e6ae.jpg",
     "static/media/px01.jpg": "/robertoparet-robertspixel/static/media/px01.1b6f5058f538aee0241e.jpg",
     "static/media/px47.jpg": "/robertoparet-robertspixel/static/media/px47.4430145e19c13839f1e6.jpg",
     "static/media/px30.jpg": "/robertoparet-robertspixel/static/media/px30.a551261696b0e165cd20.jpg",
@@ -37,6 +41,7 @@
     "static/media/px27.jpg": "/robertoparet-robertspixel/static/media/px27.e42355fbbc2f9fafbcc8.jpg",
     "static/media/px22.jpg": "/robertoparet-robertspixel/static/media/px22.409fbb2b1cfefaf6476d.jpg",
     "static/media/px29.jpg": "/robertoparet-robertspixel/static/media/px29.34d2fa555300685940ef.jpg",
+    "static/media/px17.jpg": "/robertoparet-robertspixel/static/media/px17.fd2e263b475eb19f368b.jpg",
     "static/media/px38.jpg": "/robertoparet-robertspixel/static/media/px38.a6a90e0586051184dc8e.jpg",
     "static/media/px32.jpg": "/robertoparet-robertspixel/static/media/px32.95fe6bcebe45c987fa80.jpg",
     "static/media/lg.svg?io9a6k": "/robertoparet-robertspixel/static/media/lg.09cd8e9be7081f216644.svg",
@@ -45,10 +50,10 @@
     "static/media/lg.woff2?io9a6k": "/robertoparet-robertspixel/static/media/lg.64b800aa30714fd916dc.woff2",
     "index.html": "/robertoparet-robertspixel/index.html",
     "main.061d2b84.css.map": "/robertoparet-robertspixel/static/css/main.061d2b84.css.map",
-    "main.346f9fc2.js.map": "/robertoparet-robertspixel/static/js/main.346f9fc2.js.map"
+    "main.89d8baa9.js.map": "/robertoparet-robertspixel/static/js/main.89d8baa9.js.map"
   },
   "entrypoints": [
     "static/css/main.061d2b84.css",
-    "static/js/main.346f9fc2.js"
+    "static/js/main.89d8baa9.js"
   ]
 }
