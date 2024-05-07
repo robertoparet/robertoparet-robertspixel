@@ -1,44 +1,83 @@
 import React, { useState } from 'react';
 import '../styles/styles.css'; 
+
+import img1 from '../assets/px01.jpg';
+import img2 from '../assets/px02.jpg';
+import img3 from '../assets/px03.jpg';
+import img4 from '../assets/px04.jpg';
+import img5 from '../assets/px05.jpg';
+import img6 from '../assets/px06.jpg';
+import img7 from '../assets/px07.jpg';
+import img8 from '../assets/px08.jpg';
+import img9 from '../assets/px09.jpg';
+import img11 from '../assets/px11.jpg';
+import img12 from '../assets/px12.jpg';
+import img13 from '../assets/px13.jpg';
+import img14 from '../assets/px14.jpg';
+import img15 from '../assets/px15.jpg';
+import img18 from '../assets/px18.jpg';
+import img19 from '../assets/px19.jpg';
+import img20 from '../assets/px20.jpg';
+import img21 from '../assets/px21.jpg';
+import img22 from '../assets/px22.jpg';
+import img23 from '../assets/px23.jpg';
+import img24 from '../assets/px24.jpg';
+import img25 from '../assets/px25.jpg';
+import img27 from '../assets/px27.jpg';
+import img28 from '../assets/px28.jpg';
+import img29 from '../assets/px29.jpg';
+import img30 from '../assets/px30.jpg';
+import img32 from '../assets/px32.jpg';
+import img33 from '../assets/px33.jpg';
+import img38 from '../assets/px38.jpg';
+import img40 from '../assets/px40.jpg';
+import img41 from '../assets/px41.jpg';
+import img42 from '../assets/px42.jpg';
+import img43 from '../assets/px43.jpg';
+import img44 from '../assets/px44.jpg';
+import img45 from '../assets/px45.jpg';
+import img46 from '../assets/px46.jpg';
+import img47 from '../assets/px47.jpg';
+
+
 const images = [
-    { src: "/assets/px01.jpg", alt: "1" },
-    { src: "/assets/px02.jpg", alt: "2" },
-    { src: "/assets/px03.jpg", alt: "3" },
-    { src: "/assets/px04.jpg", alt: "4" },
-    { src: "/assets/px05.jpg", alt: "5" },
-    { src: "/assets/px06.jpg", alt: "6" },
-    { src: "/assets/px07.jpg", alt: "7" },
-    { src: "/assets/px08.jpg", alt: "8" },
-    { src: "/assets/px09.jpg", alt: "9" },
-    { src: "/assets/px10.jpg", alt: "10" },
-    { src: "/assets/px11.jpg", alt: "11" },
-    { src: "/assets/px12.jpg", alt: "12" },
-    { src: "/assets/px13.jpg", alt: "13" },
-    { src: "/assets/px14.jpg", alt: "14" },
-    { src: "/assets/px15.jpg", alt: "15" },
-    { src: "/assets/px18.jpg", alt: "18" },
-    { src: "/assets/px19.jpg", alt: "19" },
-    { src: "/assets/px20.jpg", alt: "20" },
-    { src: "/assets/px21.jpg", alt: "21" },
-    { src: "/assets/px22.jpg", alt: "22" },
-    { src: "/assets/px23.jpg", alt: "23" },
-    { src: "/assets/px24.jpg", alt: "24" },
-    { src: "/assets/px25.jpg", alt: "25" },
-    { src: "/assets/px27.jpg", alt: "27" },
-    { src: "/assets/px28.jpg", alt: "28" },
-    { src: "/assets/px29.jpg", alt: "29" },
-    { src: "/assets/px30.jpg", alt: "30" },
-    { src: "/assets/px32.jpg", alt: "32" },
-    { src: "/assets/px33.jpg", alt: "33" },
-    { src: "/assets/px38.jpg", alt: "38" },
-    { src: "/assets/px40.jpg", alt: "40" },
-    { src: "/assets/px41.jpg", alt: "41" },
-    { src: "/assets/px42.jpg", alt: "42" },
-    { src: "/assets/px43.jpg", alt: "43" },
-    { src: "/assets/px44.jpg", alt: "44" },
-    { src: "/assets/px45.jpg", alt: "45" },
-    { src: "/assets/px46.jpg", alt: "46" },
-    { src: "/assets/px47.jpg", alt: "47" }
+    { src: img1, alt: "1" },
+    { src: img2, alt: "2" },
+    { src: img3, alt: "3" },
+    { src: img4, alt: "4" },
+    { src: img5, alt: "5" },
+    { src: img6, alt: "6" },
+    { src: img7, alt: "7" },
+    { src: img8, alt: "8" },
+    { src: img9, alt: "9" },
+    { src: img11, alt: "11" },
+    { src: img12, alt: "12" },
+    { src: img13, alt: "13" },
+    { src: img14, alt: "14" },
+    { src: img15, alt: "15" },
+    { src: img18, alt: "18" },
+    { src: img19, alt: "19" },
+    { src: img20, alt: "20" },
+    { src: img21, alt: "21" },
+    { src: img22, alt: "22" },
+    { src: img23, alt: "23" },
+    { src: img24, alt: "24" },
+    { src: img25, alt: "25" },
+    { src: img27, alt: "27" },
+    { src: img28, alt: "28" },
+    { src: img29, alt: "29" },
+    { src: img30, alt: "30" },
+    { src: img32, alt: "32" },
+    { src: img33, alt: "33" },
+    { src: img38, alt: "38" },
+    { src: img40, alt: "40" },
+    { src: img41, alt: "41" },
+    { src: img42, alt: "42" },
+    { src: img43, alt: "43" },
+    { src: img44, alt: "44" },
+    { src: img45, alt: "45" },
+    { src: img46, alt: "46" },
+    { src: img47, alt: "47" }
 ];
 
 
