@@ -55,8 +55,8 @@ import img41 from '../assets/px41.jpg';
 import img42 from '../assets/px42.jpg';
 import img43 from '../assets/px43.jpg';
 import img44 from '../assets/px44.jpg';
-import img45 from '../assets/px45.jpg';
-import img46 from '../assets/px46.jpg';
+//import img45 from '../assets/px45.jpg';
+//import img46 from '../assets/px46.jpg';
 import img47 from '../assets/px47.jpg';
 
 const images = [
@@ -97,8 +97,8 @@ const images = [
     { src: img42, alt: "42" },
     { src: img43, alt: "43" },
     { src: img44, alt: "44" },
-    { src: img45, alt: "45" },
-    { src: img46, alt: "46" },
+  //{ src: img45, alt: "45" },
+  //{ src: img46, alt: "46" },
     { src: img47, alt: "47" }
 ];
 
