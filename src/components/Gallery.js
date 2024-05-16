@@ -36,7 +36,7 @@ import img17 from '../assets/px17.jpg';
 import img18 from '../assets/px18.jpg';
 import img19 from '../assets/px19.jpg';
 import img20 from '../assets/px20.jpg';
-import img21 from '../assets/px21.jpg';
+//import img21 from '../assets/px21.jpg';
 import img22 from '../assets/px22.jpg';
 import img23 from '../assets/px23.jpg';
 import img24 from '../assets/px24.jpg';
@@ -78,7 +78,7 @@ const images = [
     { src: img18, alt: "18" },
     { src: img19, alt: "19" },
     { src: img20, alt: "20" },
-    { src: img21, alt: "21" },
+    //{ src: img21, alt: "21" },
     { src: img22, alt: "22" },
     { src: img23, alt: "23" },
     { src: img24, alt: "24" },
